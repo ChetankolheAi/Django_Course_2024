@@ -1,2 +1,2 @@
-a="I Am In Branch Front"
+a="Commit from git bash"
 print(a)
