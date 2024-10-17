@@ -1,4 +1,4 @@
-a ="%%"
+a ="chetAn kolhe"
 print("Chetan" in a)#return true if yes and false if no
 
 #print the string in column
@@ -54,3 +54,5 @@ print(a.isdigit())
 #return true if all the charaxter are alphabet in the string
 print(a.isalpha())
 
+#it make first character of every word in the string in Upper case
+print(a.title())
