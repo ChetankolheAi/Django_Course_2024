@@ -26,3 +26,13 @@ else:
     
 if a in range(0,10):
     print("Successs")
+
+
+
+#if a variable exits the condition Satisfy
+p={4,"Chetan"}
+if p:
+    print("Exits")
+else:
+    print("Not Exits")
+
