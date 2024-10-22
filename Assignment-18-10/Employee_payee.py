@@ -14,7 +14,7 @@ while(True):
             if(emp_Hours_worked>40):
                 bonus_hrs = emp_Hours_worked - 40
                 bonus_salary =   salary_calc(bonus_hrs , emp_wage_per_hour)
-            else:
+            else: 
                 bonus_hrs = 0
             
             emp_info.update({emp_name:{"Hours":emp_Hours_worked ,"Wage":emp_wage_per_hour,"Bonus_hrs":bonus_hrs,"Bonus_salary":bonus_salary,"Total_salary_with_bonus":emp_salary}})
